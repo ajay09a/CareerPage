@@ -1,0 +1,14 @@
+.end{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.end ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.end img{
+    width: 20px;
+    height: 20px;
+}
