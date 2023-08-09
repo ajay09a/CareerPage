@@ -1,0 +1,19 @@
+.navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background: black;
+    color: white;
+}
+img{
+    height: 50px;
+    background: black;
+    width: 150px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
