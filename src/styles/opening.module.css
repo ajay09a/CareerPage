@@ -1,0 +1,17 @@
+.openingContainer{
+    padding: 10px 30px 40px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.opening{
+    background: #b8d7d7;
+    padding: 13px;
+    border-radius: 12px;
+}
+.head{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}

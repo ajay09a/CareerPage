@@ -3,9 +3,9 @@ import styles from '../styles/opening.module.css'
 
 const CurrentOpening = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.openingContainer}>
         <h1>CurrentOpening</h1>
-        <div>
+        <div className={styles.container}>
         {Object.keys(data).map((i, index)=>(
             <div className={styles.opening} key={index}>
                 <div className={styles.head}>
