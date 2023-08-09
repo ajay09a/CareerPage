@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 50px;
+    padding: 10px 50px;
     background: black;
     color: white;
 }
@@ -12,7 +12,7 @@
     width: 150px;
 }
 
-ul{
+.navbarContainer ul{
     list-style: none;
     display: flex;
     gap: 30px;
