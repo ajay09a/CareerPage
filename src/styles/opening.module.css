@@ -10,6 +10,8 @@
     background: #b8d7d7;
     padding: 13px;
     border-radius: 12px;
+    width: 270px;
+    margin-bottom: 10px;
 }
 .head{
     text-align: center;

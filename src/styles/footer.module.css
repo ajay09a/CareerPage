@@ -21,6 +21,17 @@
 .details img{
     width: 40px;
 }
+
+.details a{
+    color: white;
+    text-decoration: none;
+}
+
+.recentPost ul{
+    display: flex;
+    gap: 11px;
+    flex-direction: column;
+}
 .end{
     display: flex;
     justify-content: space-between;
