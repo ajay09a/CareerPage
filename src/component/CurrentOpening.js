@@ -5,6 +5,7 @@ const CurrentOpening = () => {
   return (
     <div className={styles.container}>
         <h1>CurrentOpening</h1>
+        <div>
         {Object.keys(data).map((i, index)=>(
             <div className={styles.opening} key={index}>
                 <div className={styles.head}>
@@ -18,7 +19,7 @@ const CurrentOpening = () => {
                 </ul>
             </div>
         ))}
-        <hr />
+        </div>
     </div>
   )
 }
