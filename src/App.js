@@ -1,3 +1,4 @@
+import CurrentOpening from './component/CurrentOpening';
 import Hero from './component/Hero';
 import Navbar from './component/Navbar';
 import Overview from './component/Overview';
@@ -8,6 +9,7 @@ function App() {
       <Navbar/>
       <Hero />
       <Overview />
+      <CurrentOpening />
     </>
   );
 }
