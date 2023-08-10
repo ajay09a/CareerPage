@@ -1,10 +1,11 @@
 import React from 'react'
 import styles from '../styles/opening.module.css'
+import { data } from '../Data'
 
 const CurrentOpening = () => {
   return (
     <div className={styles.openingContainer}>
-        <h1>CurrentOpening</h1>
+        <h2>CurrentOpening</h2>
         <div className={styles.container}>
         {Object.keys(data).map((i, index)=>(
             <div className={styles.opening} key={index}>
@@ -22,24 +23,6 @@ const CurrentOpening = () => {
         </div>
     </div>
   )
-}
-
-const data = {
-    1:{
-        role: "SDE",
-        description: "Software Development Engineer",
-        req: ["Python", "API", "MongoDB", "Dockers", "Flutter", "SQL", "Mobile/Web App Development"],
-    },
-    2:{
-        role: "SCE",
-        description: "Supply Chain Engineer",
-        req: ["Lean", "Six Sigma", "JIT", "Inventory", "Dockers", "KTE", "Supply Chain Management"],
-    },
-    3:{
-        role: "SDE",
-        description: "Software Development Engineer",
-        req: ["Python", "API", "MongoDB", "Dockers", "Flutter", "SQL", "Mobile/Web App Development"],
-    },
 }
 
 export default CurrentOpening

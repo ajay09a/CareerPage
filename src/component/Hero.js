@@ -1,5 +1,6 @@
 import React , {useState, useEffect} from 'react'
 import styles from '../styles/hero.module.css'
+import { image } from '../Data';
 
 const Hero = () => {
     let count = 0;
@@ -19,13 +20,5 @@ const Hero = () => {
     </div>
   )
 }
-
-const image = [
-    "https://img.freepik.com/premium-vector/career-website-banner-concept-with-thin-line-flat-design_56103-101.jpg",
-    "https://wallpapercave.com/wp/wp1973373.jpg",
-    "https://wallpaperaccess.com/full/4755970.jpg",
-    "https://wallpapercave.com/wp/wp3616187.jpg",
-
-]
 
 export default Hero

@@ -8,7 +8,7 @@ const Navbar = () => {
             <img src='https://getpeppermint.co/wp-content/uploads/2017/05/Untitled-design-86-1.png' alt='logo' />
         </div>
         <ul>
-            <li>Over-view</li>
+            <li>OverView</li>
             <li>Opportunity</li>
         </ul>
     </div>

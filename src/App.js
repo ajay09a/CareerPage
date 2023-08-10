@@ -1,18 +1,18 @@
-import CurrentOpening from './component/CurrentOpening';
-import Footer from './component/Footer';
-import Hero from './component/Hero';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Navbar from './component/Navbar';
-import Overview from './component/Overview';
+import Career from './page/Career';
+import Home from './page/Home';
+
 
 function App() {
   return (
-    <>
-      <Navbar/>
-      <Hero />
-      <Overview />
-      <CurrentOpening />
-      <Footer />
-    </>
+    <BrowserRouter>
+    <Navbar/>
+    <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/career' element={<Career />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
