@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Posts = () => {
+const Post = () => {
   return (
     <div>
         <h1 style={{textAlign:"center"}}>Post</h1>
@@ -8,4 +8,4 @@ const Posts = () => {
   )
 }
 
-export default Posts
+export default Post

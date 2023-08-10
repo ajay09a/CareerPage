@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/footer.module.css'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -23,9 +24,9 @@ const Footer = () => {
             <div className={styles.recentPost}>
                 <h3>Recent Posts</h3>
                 <ul>
-                    <li>Evevating Efficiency: Evolution of Material Handling with AMRs</li>
-                    <li>Autonomous Mobile Robots: The Future of Efficient Material Handing</li>
-                    <li>Robotic Floor Scrubbers- The Future of Autonomous Cleaning at Airports</li>
+                    <li><NavLink to="/post">Evevating Efficiency: Evolution of Material Handling with AMRs</NavLink></li>
+                    <li><NavLink to="/post">Autonomous Mobile Robots: The Future of Efficient Material Handing</NavLink></li>
+                    <li><NavLink to="/post">Robotic Floor Scrubbers- The Future of Autonomous Cleaning at Airports</NavLink></li>
                 </ul>
             </div>
             
@@ -35,13 +36,13 @@ const Footer = () => {
             <p>getpeppermint © 2023. All rights reserved.</p>
             <ul>
                 <li>
-                    <img src='https://seeklogo.com/images/T/twitter-x-logo-101C7D2420-seeklogo.com.png?v=638258000500000000' alt='x' />
+                    <a href='https://twitter.com/i/flow/login'><img src='https://seeklogo.com/images/T/twitter-x-logo-101C7D2420-seeklogo.com.png?v=638258000500000000' alt='x' /></a>
                 </li>
                 <li>
-                    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR11vN6ovFabIO4qFptL1s4ODnANrpmcLUmdpXwO8oxlim_u70tIcLlTkD8qCSHErNRtsQ&usqp=CAU' alt='Youtube' />
+                    <a href='https://www.youtube.com'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR11vN6ovFabIO4qFptL1s4ODnANrpmcLUmdpXwO8oxlim_u70tIcLlTkD8qCSHErNRtsQ&usqp=CAU' alt='Youtube' /></a>
                 </li>
                 <li>
-                    <img src='https://w7.pngwing.com/pngs/402/997/png-transparent-linkedin-logo-computer-icons-facebook-user-profile-facebook-blue-angle-text.png' alt='LinkedIn' />
+                <a href='https://in.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F'><img src='https://w7.pngwing.com/pngs/402/997/png-transparent-linkedin-logo-computer-icons-facebook-user-profile-facebook-blue-angle-text.png' alt='LinkedIn' /></a>
                 </li>
             </ul>
         </div>

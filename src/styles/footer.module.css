@@ -32,6 +32,11 @@
     gap: 11px;
     flex-direction: column;
 }
+.recentPost a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
 .end{
     display: flex;
     justify-content: space-between;
