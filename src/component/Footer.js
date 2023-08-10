@@ -24,9 +24,9 @@ const Footer = () => {
             <div className={styles.recentPost}>
                 <h3>Recent Posts</h3>
                 <ul>
-                    <li><NavLink to="/post">Evevating Efficiency: Evolution of Material Handling with AMRs</NavLink></li>
-                    <li><NavLink to="/post">Autonomous Mobile Robots: The Future of Efficient Material Handing</NavLink></li>
-                    <li><NavLink to="/post">Robotic Floor Scrubbers- The Future of Autonomous Cleaning at Airports</NavLink></li>
+                    <li><NavLink to="/post/1">Evevating Efficiency: Evolution of Material Handling with AMRs</NavLink></li>
+                    <li><NavLink to="/post/2">Autonomous Mobile Robots: The Future of Efficient Material Handing</NavLink></li>
+                    <li><NavLink to="/post/3">Robotic Floor Scrubbers- The Future of Autonomous Cleaning at Airports</NavLink></li>
                 </ul>
             </div>
             
