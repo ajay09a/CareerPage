@@ -17,3 +17,11 @@
     display: flex;
     gap: 30px;
 }
+.navbarContainer a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+.navbarContainer a:hover{
+    color: aqua;
+}
