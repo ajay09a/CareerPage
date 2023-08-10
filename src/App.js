@@ -2,6 +2,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Navbar from './component/Navbar';
 import Career from './page/Career';
 import Home from './page/Home';
+import About from './page/About';
 
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/career' element={<Career />}></Route>
+        <Route path='/' element={<Career />}></Route>
+        <Route path='/home' element={<Home />}></Route>
+        <Route path='/about' element={<About />}></Route>
       </Routes>
     </BrowserRouter>
   );
