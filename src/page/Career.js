@@ -1,6 +1,5 @@
 import React from 'react'
 import CurrentOpening from '../component/CurrentOpening';
-import Footer from '../component/Footer';
 import Hero from '../component/Hero';
 import Overview from '../component/Overview';
 
@@ -10,7 +9,7 @@ const Career = () => {
         <Hero />
       <Overview />
       <CurrentOpening />
-      <Footer />
+      
     </div>
   )
 }

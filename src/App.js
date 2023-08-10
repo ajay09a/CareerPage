@@ -4,6 +4,7 @@ import Career from './page/Career';
 import Home from './page/Home';
 import About from './page/About';
 import Post from './page/Post';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/about' element={<About />}></Route>
         <Route path='/post/:postId' element={<Post />}></Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
